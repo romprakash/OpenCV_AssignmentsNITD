@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1440763407 source:/home/deepak/CodeblocksOpenCV/ImageProcessingLabNITD/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<vector>
+	<iostream>
+
+1440767743 source:/home/deepak/CodeblocksOpenCV/ImageProcessingLabNITD (copy)/main.cpp
+	<iostream>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1440771771 source:/home/deepak/CodeblocksOpenCV/OpenCV_AssignmentsNITD/Assignment 8/8(b)/main.cpp
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+
