@@ -90,11 +90,6 @@ int main(int argc, char *argv[])
     //imshow("Image", imageHist);
 
 
-
     waitKey(0);
     return 0;
 }
-
-
-
-

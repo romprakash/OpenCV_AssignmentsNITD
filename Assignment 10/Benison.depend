@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1441797940 source:/home/deepak/CodeblocksOpenCV/Benison/main.cpp
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<stdlib.h>
+	<stdio.h>
+

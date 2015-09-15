@@ -21,7 +21,7 @@ int main( int argc, const char** argv )
       cvtColor(img, img, CV_BGR2GRAY); //change the color image to grayscale image
 
       Mat img_hist_equalized;
-     equalizeHist(img, img_hist_equalized); //equalize the histogram
+      equalizeHist(img, img_hist_equalized); //equalize the histogram
 
       //create windows
      namedWindow("Original Image", CV_WINDOW_AUTOSIZE);

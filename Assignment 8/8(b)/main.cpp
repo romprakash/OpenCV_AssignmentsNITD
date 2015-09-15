@@ -15,25 +15,18 @@ int main( int argc, char** argv )
      Mat src = imread( "lena.jpg", CV_LOAD_IMAGE_GRAYSCALE );
      Size size(64,64);
      resize(src,src,size, INTER_AREA);
-
-
-
       //show the loaded image
      imshow( "Original Image", src );
 
       Mat dst;
       char zBuffer[35];
-
       for ( int i = 1; i  <  31; i = i + 2 )
      {
-
        //smooth the image using Gaussian kernel in the "src" and save it to "dst"
       GaussianBlur( src, dst, Size( i, i ), 0, 0 );
       //You use a gaussian smoothing filter and subtract the smoothed version from the original image
       //(in a weighted way so the values of a constant area remain constant).
       addWeighted(src, 1.5, dst, -0.5, 0, dst); // from stackoverflow
-
-
        //show the sharpened image with the text
       imshow( "Sharpened Image", dst );
 
